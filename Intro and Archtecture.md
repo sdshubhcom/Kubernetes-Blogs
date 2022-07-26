@@ -22,7 +22,7 @@ In docker we maintain containers on the machines but **what if machines gets cra
 In general Kubernetes is a open source platform and container orchestration tool for automating deployment, scaling and operations of application containers.
 it follows the concept of Master and worker nodes cluster which are highly available without any downtime or we can say very minimum amount of downtime.
 
-**Architecture of Kubernetes.**
+# Architecture of Kubernetes.
 As we all know There is Master node and Worker node but how this cluster works. There are several components lets see one by one : 
 
 
