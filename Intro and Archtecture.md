@@ -16,6 +16,16 @@ we were having three kinds of deployemets :
 
 # Why We Need Kuberenets ?
 
-In docker we maintain containers on the machines but what if machines gets crashed then we are no able to access that container. Here is the role of Kubernetes. Kubernetes forms a cluster in which it has several machines connected and on top of that cluster the containers are used. The advantage of this is if any machines goes down there will be other machines which serve container.
-![image](https://user-images.githubusercontent.com/69069614/181034618-0b8af70e-223a-4c53-ae0a-45058f23f798.png)
+In docker we maintain containers on the machines but **what if machines gets crashed then we are no able to access that container**. Here is the role of Kubernetes. Kubernetes forms a cluster in which it has several machines connected and on top of that cluster the containers are used. The advantage of this is if any machines goes down there will be other machines which serve container.
+
+# What is Kuberentes ?
+In general Kubernetes is a open source platform and container orchestration tool for automating deployment, scaling and operations of application containers.
+it follows the concept of Master and worker nodes cluster which are highly available without any downtime or we can say very minimum amount of downtime.
+
+**Architecture of Kubernetes.**
+As we all know There is Master node and Worker node but how this cluster works. There are several components lets see one by one : 
+
+![image](https://user-images.githubusercontent.com/69069614/181040243-227aa8ce-e458-4c62-ab4f-71fd952878f7.png)
+
+
 
