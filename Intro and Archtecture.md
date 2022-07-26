@@ -28,5 +28,8 @@ As we all know There is Master node and Worker node but how this cluster works. 
 ![k8 architecture](https://user-images.githubusercontent.com/69069614/181048878-51bb406f-ca6d-40ae-8bc2-936ea0eb921d.png)
 
 
+![k8_architecture-removebg-preview](https://user-images.githubusercontent.com/69069614/181049436-3b038ee4-1282-43a4-ac26-b403da0e41fb.png)
+
+
 
 
