@@ -26,11 +26,9 @@ it follows the concept of Master and worker nodes cluster which are highly avail
 As we all know There is Master node and Worker node but how this cluster works. There are several components lets see one by one : 
 
 
-![k8_architecture-removebg-preview](https://user-images.githubusercontent.com/69069614/181049436-3b038ee4-1282-43a4-ac26-b403da0e41fb.png)
-
-
-
 ![k8_architecture-removebg-preview](https://user-images.githubusercontent.com/69069614/181056970-cece8ac9-4597-45b9-b447-e2f90f8ddd67.png)
+
+
 
 
 
