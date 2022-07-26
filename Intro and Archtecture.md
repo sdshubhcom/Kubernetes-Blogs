@@ -25,7 +25,8 @@ it follows the concept of Master and worker nodes cluster which are highly avail
 **Architecture of Kubernetes.**
 As we all know There is Master node and Worker node but how this cluster works. There are several components lets see one by one : 
 
-![image](https://user-images.githubusercontent.com/69069614/181040243-227aa8ce-e458-4c62-ab4f-71fd952878f7.png)
+![k8 architecture](https://user-images.githubusercontent.com/69069614/181048878-51bb406f-ca6d-40ae-8bc2-936ea0eb921d.png)
+
 
 
 
