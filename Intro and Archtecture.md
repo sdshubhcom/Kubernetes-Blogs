@@ -51,3 +51,14 @@ Some types of controller are :
 - **Service Account & Token controllers :** It is responsible for creating defaults services account, API token access for namespaces.
 
 **4. Scheduler**
+
+It is responsible for carrying out the instruction specified by controlle manager. It is responsible for triggering the changes on perticular cluster.
+It also repsonsible for tracking the utilization of the workload on cluster nodes. and then placing the workload on which resources are available and accepting the workload.
+
+**5. Kublet**
+
+It act as a agent it will receive the request and whatever the changes the controll manager has assigned kublet agent will make sure it should be applied correctly and give success or failure feedback. If Kublet is not working the cluster will not be able to control the workload.
+
+**6. Kube Proxy**
+
+It is a network proxy which run on each node in the cluster. It maintains the network rules on nodes these rules allow network communication on your pods from network session inside or outside of the cluster.
