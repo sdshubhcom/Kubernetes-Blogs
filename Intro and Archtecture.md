@@ -40,5 +40,14 @@ ETCD stores the configuration information which can be used by each node in the 
 
 **3. Controller Manager**
 
+Controller Manager is responsible for all the activities in the cluster whatever changes that has to be done that will be approved by controller manager. Before doing any changes it wil check the old configuration in th ETCD then it will approve the chnages and will commit those changes in the ETCD as well and id the changes are not executed properly then it will not commit those in the ETCD.
 
+There are Different Controller in the conrol pane each one has seperate Process. They are all compiled in a single binary and working in a single process
+Some types of controller are :
 
+- **Node Controller :** It is mainly responsible for noticing and responding when any of the nodes goes down.
+- **Job Controller :** It is responsible for creating pods to run the tasks so that it can be completed. it keep on watches for the job and creates the pod for the same.
+- **Endpoint Controller :** It is reponsible for provisionng the endpoints such as service endpoits,pods etc.
+- **Service Account & Token controllers :** It is responsible for creating defaults services account, API token access for namespaces.
+
+**4. Scheduler**
