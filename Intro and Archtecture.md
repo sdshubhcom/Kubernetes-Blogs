@@ -32,7 +32,13 @@ As we all know There is Master node and Worker node but how this cluster works. 
 
 **1. API Server**
 
+It is use to communicate with other componenets of different or within server. If server wants to comunicatewith other componenets it will be done via API server these should be exposed to HTTPD. Instead of communicating through port e can easily communicate via API.
 
+**2. ETCD**
+
+ETCD stores the configuration information which can be used by each node in the cluster. ETCD is Consistent and highly-available and store the data into key value format used as Kubernetes' backing store for all cluster data and It stores all the data used to manage the cluster. It is accessable only by Kubernetes API server. 
+
+**3. Controller Manager**
 
 
 
