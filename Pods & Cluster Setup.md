@@ -4,3 +4,7 @@ Pod is a running process in cluster. It contains one or more container such as d
 
 ![image](https://user-images.githubusercontent.com/69069614/182211103-440cabac-ebbd-4feb-80d2-36a485d16525.png)
 
+**There are Two Types of Pod :**
+
+**1. Single Pod**
+
