@@ -4,7 +4,9 @@ Pod is a running process in cluster. It contains one or more container such as d
 
 ![image](https://user-images.githubusercontent.com/69069614/182211103-440cabac-ebbd-4feb-80d2-36a485d16525.png)
 
-**There are Two Types of Pod :**
+**Pods in a Kubernetes cluster are used in two main ways :**
 
-**1. Single Pod**
+**1. Single container Pod**
+Single container pod refers to the pod which contains only one container. you can deploy such as follows :
+
 
