@@ -41,3 +41,35 @@ It will create a pod with the name of nginx. We can use the describe command alo
 
 **Multi container Pod**
 
+Multi container pod refers to the pod which contains one or more containers. you can deploy such pod by writing a yaml file. And running the kubectl command.
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: multicontainer-pods
+  namespace: multi
+  labels:
+    app: httpd
+    tier: frontend-backend
+    version: v1
+spec:
+  containers:
+  - name: web
+    image: httpd
+    ports:
+    - containerPort: 80
+  - name: db
+    image: mysql
+    ports:
+    - containerPort: 3306
+    env:
+    - name: MYSQL_ROOT_PASSWORD
+      value: *******
+ ```
+ 
+ In the above yaml file, we have created one pod with two containers inside it, one for httpd and the other for MySQL. You can execte the yaml file with kubectl create command.
+ 
+
+# Namespaces
+
