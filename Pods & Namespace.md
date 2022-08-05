@@ -7,7 +7,8 @@ Pod is a running process in cluster. It contains one or more container such as d
 **Pods in a Kubernetes cluster are used in two main ways :**
 
 **1. Single container Pod**
-Single container pod refers to the pod which contains only one container. you can deploy such pod by writing a yaml file.
+
+Single container pod refers to the pod which contains only one container. you can deploy such pod by writing a yaml file. And running the kubectl command
 
 ```
 apiVersion: v1
@@ -27,3 +28,12 @@ spec:
     ports:
     - containerPort: 80
 ```
+
+Once the yaml file is created save the file let's give name **nginx.yaml** and run the create command to run the file.
+
+```
+kubectl create –f nginx.yml
+```
+It will create a pod with the name of nginx. We can use the describe command along with kubectl to describe the pod.
+
+
