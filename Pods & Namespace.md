@@ -39,7 +39,7 @@ kubectl create –f nginx.yml
 ```
 It will create a pod with the name of nginx. We can use the describe command along with kubectl to describe the pod.
 
-**Multi container Pod**
+**2. Multi container Pod**
 
 Multi container pod refers to the pod which contains one or more containers. you can deploy such pod by writing a yaml file. And running the kubectl command.
 
