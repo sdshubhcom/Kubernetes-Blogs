@@ -73,3 +73,19 @@ spec:
 
 # Namespaces
 
+Namspace are the logical separation for different environments with the help of namespace you can use same resources at a time as they are logically seperated.
+you can use any number of namspaces supported in cluster and they have ability to communicate with each other.
+
+**Some of the usecase why to use Namespces :**
+
+- You can separate development, testing, and deployement environment of containerized applications enabling the entire lifecycle to take place on the same cluster.
+- With the namespace you can divide the resourcs of the cluster between multile teams.
+- Allowing teams or projects to exist in their own virtual clusters without fear of impacting each other’s work.
+
+## There 4 initial namspaces in Kubernetes
+
+**1. default**
+This is the default namespace for every kubernetes command and every kuberenets resource resides in this defult namespace until new namespace are created the entire cluster resides in default.
+
+**2. Kube-System**
+This namespce is used for kuberenets componenes which should be avoided for use.
