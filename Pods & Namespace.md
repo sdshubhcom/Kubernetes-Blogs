@@ -1,3 +1,8 @@
+
+![image](https://user-images.githubusercontent.com/69069614/183693515-8b48e513-3056-45e7-b5c3-7f3cf136fc30.png)
+
+
+
 # What is Pod and Why Kuberenetes use Pods?
 
 Pod is a running process in cluster. It contains one or more container such as docker container. In pod containers are managed as single entity and share the resources. You can have different types of containers in a single pod whether it is related to application or database.
