@@ -89,3 +89,33 @@ This is the default namespace for every kubernetes command and every kuberenets 
 
 **2. Kube-System**
 This namespce is used for kuberenets componenes which should be avoided for use.
+
+**3. Kube-Public**
+This namespce is automatically created and its for only reserved for cluster usage but it is readable by all users.
+
+## Creating Namespce
+
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: NP1
+```
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: NP2
+```
+
+# Basic Kubectl Commands
+
+- This is use to get all the namespace which are created.
+```
+kubectl get ns
+```
+
+- This command is used for get all the details of default namespce.
+```
+kubectl get all -n default
+```
