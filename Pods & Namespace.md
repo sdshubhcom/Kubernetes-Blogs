@@ -115,7 +115,17 @@ metadata:
 kubectl get ns
 ```
 
-- This command is used for get all the details of default namespce.
+- This command is used for get all the resources which are under default namespce.
 ```
 kubectl get all -n default
+```
+
+- With this command you will all the componenets of the cluster.
+```
+kubectl get all -n kube-system
+```
+
+- This is also same command as above but it will display information in detail about the cluster components.
+```
+kubectl get all -n kube-system -o wide
 ```
