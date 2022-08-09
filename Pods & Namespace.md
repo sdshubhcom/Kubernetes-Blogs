@@ -87,7 +87,7 @@ you can use any number of namspaces supported in cluster and they have ability t
 - With the namespace you can divide the resourcs of the cluster between multile teams.
 - Allowing teams or projects to exist in their own virtual clusters without fear of impacting each other’s work.
 
-## There 4 initial namspaces in Kubernetes
+## There 3 initial namspaces in Kubernetes
 
 **1. default**
 This is the default namespace for every kubernetes command and every kuberenets resource resides in this defult namespace until new namespace are created the entire cluster resides in default.
