@@ -95,6 +95,8 @@ This namespce is automatically created and its for only reserved for cluster usa
 
 ## Creating Namespce
 
+Here we are creating two namespces named as NP1 and NP2 like this you can create namespce according to you requirements.
+
 ```
 apiVersion: v1
 kind: Namespace
@@ -106,6 +108,14 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: NP2
+```
+
+## Deleting Namespce
+
+You can delete namespce by executing below command :
+
+```
+kubectl delete ns NP1
 ```
 
 # Basic Kubectl Commands
