@@ -147,6 +147,18 @@ kubectl get all -n kube-system -o wide
 
 # Community Asked Questions
 
-**1. How many Container can a Pod have**
+- **How many Container can a Pod have?**
 
 **Ans :** We can have total 5000 nodes, Total 150000 Pods not more than that and not more than 300000 total containers.
+
+- **Where is the container storage in the Kuberenetes Pods ?**
+
+**Ans :** By Default Kubernets has temporary storage (non-persistent). Any storage which is a part of a container in the pod is held in the host temporary storage which exists as long as the pod exists.
+
+- **What is difference between Pod and Container ?**
+
+**Ans :** Pod encapsulates different containers and deploy as one while container is a single entity and it is deploy as a single entity. In Pod you can have multiple containers having different OS images whereas in container you can have only one OS image.
+
+- **What is the Purpose of Pods ?**
+
+**Ans :** Basically Pods are designed to support multiple coorporating processes in the form of containers. Which form a cohesive unit of service and shre same storage and network on the cluster.  
