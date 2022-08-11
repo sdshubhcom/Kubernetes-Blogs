@@ -144,3 +144,9 @@ kubectl get all -n kube-system
 ```
 kubectl get all -n kube-system -o wide
 ```
+
+# Community Asked Questions
+
+**1. How many Container can a Pod have**
+
+**Ans :** We can have total 5000 nodes, Total 150000 Pods not more than that and not more than 300000 total containers.
