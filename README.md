@@ -26,13 +26,6 @@ Linux,Cloud,DevOps,Docker,K8s,Seccurity,Solutions,Re-Engineering,Virtuvalization
 - 🙏 I’m looking for more hands in this cloudnloud Tech Community initiatives.
 - 📫 How to reach me: shubh.sd72@gmail.com.
 
-### How to install and configure Jenkins in Rocky Linux :
-👇
-  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Jenkins-Installation.md
-
-### How to install and configure Jenkins in Rocky Linux :
-👇
-  * Refer -  https://github.com/cloudnloud/Rockylinux/blob/main/Artifactory%20and%20Tomcat%20Installation.md
   
 
 ### Find All Cloud/DevOps Architect Trainings with Step-by-Step Handson with Use cases:
