@@ -1,3 +1,7 @@
+![shubh-hashnode-blog (4)](https://user-images.githubusercontent.com/69069614/205487096-3219b9fe-8d49-49d7-b487-c196d6647a0d.png)
+
+
+
 # What is meant by Service in Kubernetes ?
 
 By default your application running in the pods are not availabel for outside world in order to make your application available to outside **services** are being used which routes the traffic to contianer into the pod. Services is a machanism which exposes you pod on a network. There are three service which are used :
